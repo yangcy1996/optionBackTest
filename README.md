@@ -14,10 +14,10 @@ backTester.py – contains the BackTest class and the main function for this lib
 
 # Assumptions:
 
-1.      No transaction cost for stock trading
+- No transaction cost for stock trading
 
-2.      Transaction cost for option trading is a constant ratio
+- Transaction cost for option trading is a constant ratio
 
-3.      Interest rate / funding rate are constant
+- Interest rate / funding rate are constant
 
-4.      When checking vega limit at the time of a new trade, assume current vega of existing positions equals to their latest vega
+- When checking vega limit at the time of a new trade, assume current vega of existing positions equals to their latest vega
